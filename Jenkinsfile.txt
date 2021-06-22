@@ -7,8 +7,9 @@ pipeline{
 	stage('Build Docekr Image'){
 	    steps{
 		sh "docker build . -t <docker image>:${DOCKER_TAG}"
-	    	}
+	    }
 	}
+    }
 }
 
 def getDocketTag(){
