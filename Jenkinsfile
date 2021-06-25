@@ -6,7 +6,7 @@ pipeline{
     stages{
 	stage('Build Docker Image'){
 	    steps{
-		sh "docker build . -t gopalamkrishna/myfirstrep:V1"
+		sh "docker build . -t gopalamkrishna/myfirstapp:V1"
 	    }
 	}
     }
